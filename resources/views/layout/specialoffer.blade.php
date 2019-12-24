@@ -11,7 +11,7 @@
 			<div class="product-image">
 				<div class="image">
 					<a href="#">
-						<img src="{{asset('assets/frontend/images/products/p30.jpg')}}" alt="">
+						<img src="{{asset('assets/frontend/images/products/p30')}}')}}" alt="">
 					</a>					
 				</div><!-- /.image -->
 											
@@ -42,7 +42,7 @@
 			<div class="product-image">
 				<div class="image">
 					<a href="#">
-						<img src="{{asset('assets/frontend/images/products/p29.jpg')}}" alt="">
+						<img src="{{asset('assets/frontend/images/products/p29')}}')}}" alt="">
 					</a>					
 				</div><!-- /.image -->
 					
@@ -72,7 +72,7 @@
 			<div class="product-image">
 				<div class="image">
 					<a href="#">
-						<img src="{{asset('assets/frontend/images/products/p28.jpg')}}" alt="">
+						<img src="{{asset('assets/frontend/images/products/p28')}}')}}" alt="">
 	
 					</a>					
 				</div><!-- /.image -->
@@ -108,7 +108,7 @@
 			<div class="product-image">
 				<div class="image">
 					<a href="#">
-						<img src="{{asset('assets/frontend/images/products/p27.jpg')}}" alt="">
+						<img src="{{asset('assets/frontend/images/products/p27')}}')}}" alt="">
 					</a>					
 				</div><!-- /.image -->
 					
@@ -138,7 +138,7 @@
 			<div class="product-image">
 				<div class="image">
 					<a href="#">
-						<img src="{{asset('assets/frontend/images/products/p26.jpg')}}" alt="">
+						<img src="{{asset('assets/frontend/images/products/p26')}}')}}" alt="">
 					</a>					
 				</div><!-- /.image -->
 				
@@ -167,7 +167,7 @@
 			<div class="product-image">
 				<div class="image">
 					<a href="#">
-						<img src="{{asset('assets/frontend/images/products/p25.jpg')}}" alt="">
+						<img src="{{asset('assets/frontend/images/products/p25')}}')}}" alt="">
 					</a>					
 				</div><!-- /.image -->
 					
@@ -201,7 +201,7 @@
 			<div class="product-image">
 				<div class="image">
 					<a href="#">
-						<img src="{{asset('assets/frontend/images/products/p24.jpg')}}"  alt="">
+						<img src="{{asset('assets/frontend/images/products/p24')}}')}}"  alt="">
 					</a>					
 				</div><!-- /.image -->
 
@@ -231,7 +231,7 @@
 			<div class="product-image">
 				<div class="image">
 					<a href="#">
-						<img src="{{asset('assets/frontend/images/products/p23.jpg')}}" alt="">
+						<img src="{{asset('assets/frontend/images/products/p23')}}')}}" alt="">
 						</a>					
 				</div><!-- /.image -->
 											
@@ -261,7 +261,7 @@
 			<div class="product-image">
 				<div class="image">
 					<a href="#">
-						<img src="{{asset('assets/frontend/images/products/p22.jpg')}}" alt="">
+						<img src="{{asset('assets/frontend/images/products/p22')}}')}}" alt="">
 					</a>					
 				</div><!-- /.image -->
 					

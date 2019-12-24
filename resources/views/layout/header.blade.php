@@ -46,7 +46,7 @@
 				<div class="col-xs-12 col-sm-12 col-md-3 logo-holder">
 					<!-- ============================================================= LOGO ============================================================= -->
 <div class="logo">
-	<a href="home.html">
+	<a href="{{Route('home')}}">
 		
 		<img src="{{asset('assets/frontend/images/logo.png')}}" alt="">
 
@@ -64,14 +64,14 @@
             <ul class="categories-filter animate-dropdown">
                 <li class="dropdown">
 
-                    <a class="dropdown-toggle"  data-toggle="dropdown" href="category.html">Categories <b class="caret"></b></a>
+                    <a class="dropdown-toggle"  data-toggle="dropdown" href="{{Route('category')}}">Categories <b class="caret"></b></a>
 
                     <ul class="dropdown-menu" role="menu" >
                         <li class="menu-header">Computer</li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="category.html">- Clothing</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="category.html">- Electronics</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="category.html">- Shoes</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="category.html">- Watches</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="{{Route('category')}}">- Clothing</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="{{Route('category')}}">- Electronics</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="{{Route('category')}}">- Shoes</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="{{Route('category')}}">- Watches</a></li>
 
                     </ul>
                 </li>
@@ -112,7 +112,7 @@
 					<div class="row">
 						<div class="col-xs-4">
 							<div class="image">
-								<a href="detail.html"><img src="{{asset('assets/frontend/images/cart.jpg')}}" alt=""></a>
+								<a href="detail.html"><img src="{{asset('assets/frontend/images/cart')}}')}}" alt=""></a>
 							</div>
 						</div>
 						<div class="col-xs-7">
@@ -168,11 +168,11 @@
 	<div class="nav-outer">
 		<ul class="nav navbar-nav">
 			<li class="active dropdown yamm-fw">
-				<a href="home.html" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+				<a href="{{Route('home')}}" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Home</a>
 				
 			</li>
 			<li class="dropdown yamm mega-menu">
-				<a href="home.html" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Clothing</a>
+				<a href="{{Route('home')}}" data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Clothing</a>
                 <ul class="dropdown-menu container">
 					<li>
                						<div class="yamm-content ">
@@ -237,7 +237,7 @@
 
                     
        <div class="col-xs-12 col-sm-6 col-md-4 col-menu banner-image">
-                                    <img class="img-responsive" src="{{asset('assets/frontend/images/banners/top-menu-banner.jpg')}}" alt="">
+                                    <img class="img-responsive" src="{{asset('assets/frontend/images/banners/top-menu-banner')}}')}}" alt="">
                               
                             
       
@@ -254,7 +254,7 @@
 			</li>
 
 			<li class="dropdown mega-menu">
-				<a href="category.html"  data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Electronics
+				<a href="{{Route('category')}}"  data-hover="dropdown" class="dropdown-toggle" data-toggle="dropdown">Electronics
 				   <span class="menu-label hot-menu hidden-xs">hot</span>
 				</a>
                 <ul class="dropdown-menu container">
@@ -334,13 +334,13 @@
 			</li>
 			<li class="dropdown hidden-sm">
 				
-				<a href="category.html">Health & Beauty
+				<a href="{{Route('category')}}">Health & Beauty
 				    <span class="menu-label new-menu hidden-xs">new</span>
 				</a>
 			</li>
 
 			<li class="dropdown hidden-sm">
-				<a href="category.html">Watches</a>
+				<a href="{{Route('category')}}">Watches</a>
 			</li>
 
 			<li class="dropdown">
@@ -363,8 +363,8 @@
 								
 									<div class="col-xs-12 col-menu">
 	                                  <ul class="links">
-		                                  	<li><a href="home.html">Home</a></li>
-											<li><a href="category.html">Category</a></li>
+		                                  	<li><a href="{{Route('home')}}">Home</a></li>
+											<li><a href="{{Route('category')}}">Category</a></li>
 											<li><a href="detail.html">Detail</a></li>
 											<li><a href="shopping-cart.html">Shopping Cart Summary</a></li>
                                             <li><a href="checkout.html">Checkout</a></li>
