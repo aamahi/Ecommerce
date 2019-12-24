@@ -97,10 +97,10 @@
 				</div>
 			</div>
 	    </div>
-	    		        <div class="item">
-	        	<div class="products special-product">
-		        							<div class="product">
-							<div class="product-micro">
+	<div class="item">
+	    <div class="products special-product">
+		    <div class="product">
+				<div class="product-micro">
 	<div class="row product-micro-row">
 		<div class="col col-xs-5">
 			<div class="product-image">
